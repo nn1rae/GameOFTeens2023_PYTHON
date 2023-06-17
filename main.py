@@ -3,7 +3,7 @@ from telebot import types
 import time
 
 
-bot = telebot.TeleBot("TOKEN")
+bot = telebot.TeleBot("TOKEN")#BotFather Token
 
 tarifs = [{"atr": ["a","d","f","h","j"], "name": "Вільний Лайф", "url" : "https://www.lifecell.ua/uk/mobilnij-zvyazok/taryfy/vilniy-life-2021/"}, 
     {"atr": ["a","d","f","h","j"], "name": "Смарт Лайф", "url" : "https://www.lifecell.ua/uk/mobilnij-zvyazok/taryfy/smart-life-2021/"},
