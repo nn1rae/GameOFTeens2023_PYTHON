@@ -123,22 +123,21 @@ def info(messege):
     bot.send_photo(
         messege.from_user.id,
         photo=open("img/dokshyy.jpg", "rb"),
-        caption="*dokshyy*\nРедактор-дизайнер\n\n"
-        'Поки ви заробляєте дивани, вони сидять на мільйонах..."',
+        caption="*dokshyy*\nРедактор-дизайнер\n\n\"Поки ви заробляєте дивани, вони сидять на мільйонах...\"",
         parse_mode="Markdown",
     )
     time.sleep(0.8)
     bot.send_photo(
         messege.from_user.id,
         photo=open("img/dennys.jpg", "rb"),
-        caption='*dennys*\nАналітик тарифних планів\n\n"Якщо життя повернеться до тебе дупою - засади йому"',
+        caption="*dennys*\nАналітик тарифних планів\n\n\"Якщо життя повернеться до тебе дупою - засади йому\"",
         parse_mode="Markdown",
     )
     time.sleep(0.8)
     bot.send_photo(
         messege.from_user.id,
         photo=open("img/nigggar.jpg", "rb"),
-        caption='*niggar*\nТалісман\n\n"Не порівнюйте себе з іншими. Якщо ви робите це, ви ображаєте себе."',
+        caption="*niggar*\nТалісман\n\n\"Не порівнюйте себе з іншими. Якщо ви робите це, ви ображаєте себе.\"",
         parse_mode="Markdown",
     )
 
